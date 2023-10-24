@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0 auto;
+            padding: 150px;
+            background-color: #f0f0f0;
+            text-align: center;
+            
+            background-image: url('https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Specify the path to your background image */
+            background-size: cover; /* Ensure the image covers the entire body */
+            background-repeat: no-repeat; /* Prevent image repetition */
+
+            transition: background-color 1s;
+        }
+        header {
+            padding: 20px;
+            overflow: hidden;        /* Clear any floats within the header */
+        }
+        .logout-button {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none;                      /* Remove underline */
+            background-color: white;
+            color: black;
+            border: 1px solid #9b9b9b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .logout-button:hover {
+            background-color: #5b5b5b;
+            color: rgb(255, 255, 255);
+            transition: background-color 0.3s;
+        }
+        .textbox {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 50px;
+            background-color: #ffffffed;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.518);
+        }
+        h1 {
+            margin: 0 auto;
+            font-size: 30px;
+        }
+        .welcome p{
+            margin: 20px;
+            padding: 10px;
+            font-family: 'Times New Roman', sans-serif;
+            font-size: 19px;
+            padding-bottom: 20px;
+        }
+        .next-button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;                      /* Remove underline */
+            background-color: white;
+            color: black;
+            border: 1px solid #5b5b5b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+        .next-button:hover {
+            background-color: #707070;
+            color: rgb(255, 255, 255);
+            transition: background-color 0.3s;
+        }
+        p {
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+            <a href="logout.php" class="logout-button"role="button" aria-pressed="true">Log Out</a>
+        <div class="textbox">
+            <div class="row">
+                <div class="welcome-title">
+                    <h1>Welcome to the Restoran Mn. An-Nur Customer Feedback System.</h1>
+                </div>
+                <br>
+                <div class="welcome">
+                    <p>Please share your feedback for the restaurant so they can improve.</p>
+                </div>
+
+                <a href="Login_&_Signup.html" class="next-button">Click to review</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
