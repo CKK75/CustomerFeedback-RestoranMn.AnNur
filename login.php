@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         $_SESSION["user"] = $row;
                         echo " Password is valid.";
 
-                        header("location: welcome.php");
+                        header("location: ./welcome.php");
                         // Your existing code here
                     } else {
                         echo " Password is not valid!";
